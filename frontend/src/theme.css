@@ -1,0 +1,150 @@
+/* ===== GLOBAL ===== */
+
+body {
+    margin: 0;
+    font-family: 'Inter', 'Poppins', sans-serif;
+    background: #f5f7fa;
+    color: #1c1c1c;
+}
+
+h1,
+h2,
+h3 {
+    font-weight: 700;
+    letter-spacing: -0.5px;
+}
+
+section {
+    padding: 80px 8%;
+}
+
+
+/* ===== HERO ===== */
+
+.hero {
+    height: 90vh;
+    background: linear-gradient( rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url("https://images.unsplash.com/photo-1566073771259-6a8506099945");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.hero h1 {
+    font-size: 56px;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    font-size: 18px;
+    opacity: 0.9;
+    margin-bottom: 30px;
+}
+
+
+/* ===== SEARCH BOX ===== */
+
+.search-box {
+    background: white;
+    padding: 20px;
+    border-radius: 16px;
+    display: flex;
+    gap: 15px;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+}
+
+.search-box input {
+    padding: 12px 15px;
+    border-radius: 10px;
+    border: 1px solid #eee;
+    width: 200px;
+}
+
+.search-box button {
+    background: #e23744;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.search-box button:hover {
+    background: #c91f2d;
+    transform: translateY(-2px);
+}
+
+
+/* ===== DESTINATIONS ===== */
+
+.destinations {
+    background: #ffffff;
+}
+
+.destinations h2 {
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+}
+
+.card {
+    background: white;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.06);
+    transition: 0.4s ease;
+    cursor: pointer;
+}
+
+.card:hover {
+    transform: translateY(-12px);
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.12);
+}
+
+.card img {
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+}
+
+.card-content {
+    padding: 25px;
+}
+
+.card-content h3 {
+    margin: 0;
+    font-size: 22px;
+}
+
+.card-content p {
+    margin-top: 8px;
+    color: #777;
+    font-size: 14px;
+}
+
+
+/* ===== FOOTER ===== */
+
+footer {
+    background: #111;
+    color: #bbb;
+    padding: 50px 8%;
+    text-align: center;
+    font-size: 14px;
+}
+
+body {
+    margin: 0;
+    padding-top: 90px;
+    font-family: 'Poppins', sans-serif;
+}
