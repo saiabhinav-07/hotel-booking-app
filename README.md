@@ -24,7 +24,7 @@ This project is developed for learning, portfolio, and resume purposes.
 ## 🌐 Live Project
 
 Frontend (Deployed Version):  
-👉 https://hotel-booking-app.vercel.app  
+👉 https://hotel-booking-app-orcin.vercel.app/  
 
 GitHub Repository:  
 👉 https://github.com/saiabhinav-07/hotel-booking-app
